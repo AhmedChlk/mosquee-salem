@@ -13,15 +13,16 @@ Ce document sert de fil conducteur pour l'implémentation de l'interface "Luxury
 ## 📋 TODO List
 
 ### Phase 1 : Fondations & Design System
-- [ ] Initialisation Next.js (App Router) + TypeScript.
-- [ ] Configuration Tailwind CSS avec la palette personnalisée (Bleu Nuit, Sable, Or).
-- [ ] Configuration de la typographie : 'Amiri' (Titres) et 'Outfit'/'Inter' (Corps).
-- [ ] Installation et personnalisation de `shadcn/ui` (styles uniques).
+- [x] Initialisation Next.js (App Router) + TypeScript.
+- [x] Configuration Tailwind CSS avec la palette personnalisée (Bleu Nuit, Sable, Or).
+- [x] Configuration de la typographie : 'Amiri' (Titres) et 'Outfit'/'Inter' (Corps).
+- [x] Installation et personnalisation de `shadcn/ui` (styles uniques).
 
 ### Phase 2 : Structure de l'Interface "Majestueuse"
-- [ ] **Header "Glassmorphism" :** Navigation transparente avec effet de flou (backdrop-blur).
-- [ ] **Hero Section :** Impact visuel fort, typographie élégante, animation d'entrée fluide.
-- [ ] **Widget Horaires de Prière :** Design minimaliste et dynamique (prochaine prière en avant).
+- [x] **Header "Glassmorphism" :** Navigation transparente avec effet de flou (backdrop-blur).
+- [x] **Hero Section :** Impact visuel fort, typographie élégante, animation d'entrée fluide.
+- [x] **Widget Horaires de Prière :** Design minimaliste et dynamique (prochaine prière en avant).
+- [x] **Footer Élégant :** Liens rapides, réseaux sociaux et informations de contact.
 
 ### Phase 3 : Fonctionnalités & Grilles (Données Mockées)
 - [ ] **Grille d'Événements (Nike-inspired) :** Cartes 3-colonnes pour actus/conférences.
