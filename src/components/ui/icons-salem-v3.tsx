@@ -1,8 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
-const strokeVariants = {
+const strokeVariants: Variants = {
   hidden: { pathLength: 0, opacity: 0 },
   visible: { 
     pathLength: 1, 
@@ -11,7 +11,7 @@ const strokeVariants = {
   }
 };
 
-const fillVariants = {
+const fillVariants: Variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { delay: 1.5, duration: 1.5 } }
 };

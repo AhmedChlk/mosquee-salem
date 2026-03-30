@@ -79,10 +79,13 @@ export const Header = () => {
           </MagneticButton>
           
           {/* MOBILE MENU TRIGGER (Visual only for now) */}
-          <button className="lg:hidden group flex flex-col gap-1.5 p-2">
+          <motion.button 
+            whileTap={{ scale: 0.9 }}
+            className="lg:hidden group flex flex-col gap-1.5 p-2"
+          >
             <div className="w-6 h-[1px] bg-primary group-hover:w-8 transition-all duration-500" />
             <div className="w-8 h-[1px] bg-primary group-hover:w-6 transition-all duration-500" />
-          </button>
+          </motion.button>
         </div>
       </div>
     </motion.header>

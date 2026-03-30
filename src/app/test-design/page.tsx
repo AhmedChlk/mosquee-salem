@@ -24,6 +24,7 @@ export default function LuxuryExperiencePage() {
   const yHero = useTransform(scrollY, [0, 500], [0, -100]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
